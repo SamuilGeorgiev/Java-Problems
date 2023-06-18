@@ -21,6 +21,22 @@ public class Chisla {
 
         }
 
+        System.out.println("Enter number");
+        int number1 = scanner.nextInt();
+
+        while (number1 >= 1 && number1 <= 9){
+            while(number1 >= 1 && number1 <= 3){
+                System.out.println(number1 * 10);
+                number1++;
+
+            }
+            number1++;
+
+        }
+
+
+
+
 
     }
 }
