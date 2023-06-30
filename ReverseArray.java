@@ -30,7 +30,7 @@ public class ReverseArray {
         System.out.print("Input array: ");
         printArray(inputArray);
         int[] reversedArray = reverseArray(inputArray);
-        System.out.print;
-        ;
+        System.out.print("Reversed array: ");
+        printArray(reversedArray);
     }
 }
