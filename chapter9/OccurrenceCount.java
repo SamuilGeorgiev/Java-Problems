@@ -6,7 +6,7 @@ public class OccurrenceCount {
         int targetNumber = 5;
         int occurrences = countOccurrences(numbers, targetNumber);
 
-        System.out.println("Числото се среща " + occurrences + " пъти в масива.");
+        System.out.println("Числото  се среща " + occurrences + " пъти в масива.");
     }
 
     public static int countOccurrences(int[] array, int target) {
