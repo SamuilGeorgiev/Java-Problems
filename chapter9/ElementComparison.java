@@ -15,7 +15,7 @@ public class ElementComparison {
     }
 
     public static boolean isElementGreaterOrSmaller(int[] array, int position) {
-      
+
         if (position < 1 || position >= array.length - 1) {
             return false;
         }
